@@ -37,6 +37,7 @@
     }
 
     header img {
+      <img src="buiding.jpg" class="profile-pic">
       position: absolute;
       top: 0;
       left: 0;
