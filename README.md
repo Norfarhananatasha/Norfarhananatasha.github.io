@@ -171,8 +171,8 @@
 <body>
   <div class="container">
     <header>
-      <img src="header-bg.jpg" alt="Background Header" class="header-bg">
-      <img src="profile.jpg" alt="Profile Picture" class="pfp"> <!-- Ensure the correct path to the image -->
+      <img src="building.jpg" alt="Background Header" class="header-bg">
+      <img src="pfp.jpg" alt="Profile Picture" class="pfp"> <!-- Ensure the correct path to the image -->
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
