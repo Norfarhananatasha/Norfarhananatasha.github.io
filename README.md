@@ -55,20 +55,7 @@
         opacity: 1;
         transform: translateX(0); /* End at its final position */
       }
-    }
 
-    .pfp {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%; /* This makes the image circular */
-      object-fit: cover;
-      border: 4px solid white;
-      margin-bottom: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1;
-      opacity: 0;
-      animation: slideInFromRight 1s ease-out 1.2s forwards; /* Animation applied */
-    }
 
     header h1 {
       font-size: 2.5em;
@@ -172,7 +159,6 @@
   <div class="container">
     <header>
       <img src="building.jpg" alt="Background Header" class="header-bg">
-      <img src="pfp.jpg" alt="Profile Picture" class="pfp"> <!-- Ensure the correct path to the image -->
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
