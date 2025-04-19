@@ -71,6 +71,14 @@
     }
 
     header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: white;
+      opacity: 0;
+      animation: shiftdown 1s ease-out 2.2s forwards;
+    }
+    
+    header h2 {
       font-size: 2.5em;
       margin-bottom: 10px;
       color: white;
@@ -172,25 +180,26 @@
   <div class="container">
     <header>
       <img src="building.jpg" alt="Background Header" class="header-bg">
-      <img src="pfp.jpg" alt="Profile Picture" class="pfp"> 
-      <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
+      <img src="pfp.jpg" alt="Profile Picture" class="pfp">
+      <h1>My Portfolio</h1>
+      <h2>Siti Norfarhana Natasha binti Mohd Aiesha</h2>
       <p>Economics graduate specializing in Finance</p>
     </header>
 
     <section>
-      <h2>About Me</h2>
+      <h3>About Me</h3>
       <p>I am an Economics soon-to-be graduate from International Islamic University Malaysia, specializing in finance. I am passionate about analyzing financial trends, working with data, and applying quantitative tools such as R and EViews to generate insights and support decision-making.</p>
     </section>
 
     <section>
-      <h2>Education</h2>
+      <h3>Education</h3>
       <ul>
         <li>Bachelor of Economics, International Islamic University Malaysia</li>
       </ul>
     </section>
 
     <section>
-      <h2>Skills</h2>
+      <h3>Skills</h3>
       <ul>
         <li>Microsoft Excel</li>
         <li>R Programming</li>
@@ -200,19 +209,19 @@
     </section>
 
     <section>
-      <h2>Projects</h2>
+      <h3>Projects</h3>
       <p>Coming soon... (You can list your final year project, forecasting models, economic analysis, etc.)</p>
     </section>
 
     <section>
-      <h2>Contacts</h2>
+      <h3>Contacts</h3>
       <ul>
         <li><a href="https://www.linkedin.com/in/siti-norfarhana-natasha-binti-mohd-aiesha-173200278" target="_blank">LinkedIn</a></li>
       </ul>
     </section>
 
     <section>
-      <h2>Resume</h2>
+      <h3>Resume</h3>
       <p><a href="#">Click here to download my resume (upload PDF link)</a></p>
     </section>
 
