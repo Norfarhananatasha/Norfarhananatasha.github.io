@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siti Norfarhana Natasha | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -24,6 +24,7 @@
     header {
       text-align: center;
       padding-bottom: 40px;
+      animation: fadeInDown 1.5s ease-out;
       background-color: #f0f0f0;
       height: 300px;
       display: flex;
@@ -33,19 +34,76 @@
       color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       position: relative;
-      background-image: url('building.jpg'); /* tukar dengan path gambar sendiri */
-      background-size: cover;
-      background-position: center;
+    }
+
+    .header-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    @keyframes slideInFromRight {
+      0% {
+        opacity: 0;
+        transform: translateX(150px); /* Start off to the right */
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0); /* End at its final position */
+      }
+    }
+
+    .pfp {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%; /* This makes the image circular */
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      opacity: 0;
+      animation: slideInFromRight 1s ease-out 1.2s forwards; /* Animation applied */
     }
 
     header h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
       color: white;
+      opacity: 0;
+      animation: shiftLeft 1s ease-out 2.2s forwards;
     }
 
     header p {
       font-size: 1.1em;
+      opacity: 0;
+      animation: fadeInText 1s ease-out 3.2s forwards;
+    }
+
+    @keyframes shiftLeft {
+      0% {
+        opacity: 0;
+        transform: translateX(0);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(-20px);
+      }
+    }
+
+    @keyframes fadeInText {
+      0% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     section {
@@ -113,6 +171,8 @@
 <body>
   <div class="container">
     <header>
+      <img src="header-bg.jpg" alt="Background Header" class="header-bg">
+      <img src="profile.jpg" alt="Profile Picture" class="pfp"> <!-- Ensure the correct path to the image -->
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
