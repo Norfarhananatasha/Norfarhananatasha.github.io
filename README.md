@@ -36,8 +36,17 @@
       position: relative;
     }
 
+    profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%; /* This makes the image circular */
+      object-fit: cover; /* Ensures the image covers the circle without distortion */
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+    
     header img {
-      <img src="buiding.jpg" alt="Siti Norfarhana Natasha" class="profile-pic">
       position: absolute;
       top: 0;
       left: 0;
@@ -123,7 +132,7 @@
 <body>
   <div class="container">
     <header>
-      <img src="profile.jpg" alt="Profile Header">
+      <img src="building.jpg" alt="Profile Header">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
