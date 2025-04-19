@@ -23,7 +23,7 @@
     header {
       text-align: center;
       padding-bottom: 40px;
-      animation: fadeInDown 1.5s ease-out;
+      animation: fadeInDown 1.5s;
       background-color: #f0f0f0;
       height: 300px;
       display: flex;
@@ -35,7 +35,7 @@
       position: relative;
     }
 
-    profile-pic {
+    .profile-pic {
       width: 160px;
       height: 160px;
       border-radius: 50%; /* This makes the image circular */
@@ -131,6 +131,7 @@
   <div class="container">
     <header>
       <img src="building.jpg" alt="Profile Header">
+      <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
