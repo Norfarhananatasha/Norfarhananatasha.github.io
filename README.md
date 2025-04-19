@@ -46,16 +46,6 @@
       z-index: 0;
     }
 
-    .profile-pic {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      animation: fadeIn 2s ease-in-out;
-    }
-
     header h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
@@ -132,7 +122,6 @@
   <div class="container">
     <header>
       <img src="building.jpg" alt="Profile Header" class="bg">
-      <img src="your-profile.jpg" alt="Profile Picture" class="profile-pic">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
