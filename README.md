@@ -34,6 +34,7 @@
       color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       position: relative;
+      z-index: 1; 
     }
 
     .header-bg {
@@ -55,19 +56,6 @@
         opacity: 1;
         transform: translateX(0); /* End at its final position */
       }
-    }
-
-    .pfp {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%; /* This makes the image circular */
-      object-fit: cover;
-      border: 4px solid white;
-      margin-bottom: 15px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      z-index: 1;
-      opacity: 0;
-      animation: slideInDown 1s ease-out 1.2s forwards; /* Animation applied */
     }
 
     header h1 {
