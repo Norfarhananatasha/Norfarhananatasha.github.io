@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siti Norfarhana Natasha | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Times New Roman', sans-serif;
-      background-color: #f0f8ff;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ffffff;
       margin: 0;
       padding: 0;
       color: #222;
@@ -16,7 +16,7 @@
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
       padding: 40px 20px;
     }
@@ -25,28 +25,35 @@
       text-align: center;
       padding-bottom: 40px;
       animation: fadeInDown 1.5s ease-out;
+      background-color: #f0f0f0;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+      position: relative;
+    }
+
+    header img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
     }
 
     header h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
-      color: #002b5b;
-      animation: fadeInRight 1.5s ease-out;
+      color: white;
     }
 
     header p {
       font-size: 1.1em;
-      color: #555;
-      animation: fadeIn 2s ease-in-out;
-    }
-
-    .profile-pic {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-top: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       animation: fadeIn 2s ease-in-out;
     }
 
@@ -115,7 +122,7 @@
 <body>
   <div class="container">
     <header>
-      <img src="building.jpg" alt="Siti Norfarhana Natasha" class="profile-pic">
+      <img src="profile.jpg" alt="Profile Header">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
@@ -144,7 +151,7 @@
 
     <section>
       <h2>Projects</h2>
-      <p></p>
+      <p>Coming soon... (You can list your final year project, forecasting models, economic analysis, etc.)</p>
     </section>
 
     <section>
