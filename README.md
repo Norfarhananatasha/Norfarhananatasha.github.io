@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Siti Norfarhana Natasha | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       font-family: 'Times New Roman', sans-serif;
@@ -16,7 +16,7 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
       padding: 40px 20px;
     }
@@ -143,7 +143,7 @@
 
     <section>
       <h2>Projects</h2>
-      <p>Coming soon... (You can list your final year project, forecasting models, economic analysis, etc.)</p>
+      <p></p>
     </section>
 
     <section>
