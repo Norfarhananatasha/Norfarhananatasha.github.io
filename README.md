@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Siti Norfarhana Natasha | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -35,17 +35,7 @@
       position: relative;
     }
 
-    .profile-pic {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%; /* This makes the image circular */
-      object-fit: cover; /* Ensures the image covers the circle without distortion */
-      margin-top: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      animation: fadeIn 2s ease-in-out;
-    }
-    
-    header img {
+    header img.bg {
       position: absolute;
       top: 0;
       left: 0;
@@ -53,6 +43,16 @@
       height: 100%;
       object-fit: cover;
       z-index: -1;
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      animation: fadeIn 2s ease-in-out;
     }
 
     header h1 {
@@ -130,8 +130,8 @@
 <body>
   <div class="container">
     <header>
-      <img src="building.jpg" alt="Profile Header">
-      <img src="pfp.jpg" alt="Profile Picture" class="profile-pic">
+      <img src="building.jpg" alt="Profile Header" class="bg">
+      <img src="your-profile.jpg" alt="Profile Picture" class="profile-pic">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
