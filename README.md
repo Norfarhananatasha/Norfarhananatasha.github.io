@@ -67,7 +67,7 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
       z-index: 1;
       opacity: 0;
-      animation: slideInFromRight 1s ease-out 1.2s forwards; /* Animation applied */
+      animation: slideInDown 1s ease-out 1.2s forwards; /* Animation applied */
     }
 
     header h1 {
