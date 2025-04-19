@@ -37,7 +37,7 @@
     }
 
     header img {
-      <img src="buiding.jpg" class="profile-pic">
+      <img src="buiding.jpg" alt="Siti Norfarhana Natasha" class="profile-pic">
       position: absolute;
       top: 0;
       left: 0;
