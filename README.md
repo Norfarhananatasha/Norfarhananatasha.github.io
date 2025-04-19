@@ -34,17 +34,16 @@
       color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       position: relative;
-      z-index: 1; 
     }
 
     .header-bg {
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       object-fit: cover;
-      z-index: 0;
+      z-index: -1;
     }
 
     @keyframes slideInFromRight {
@@ -58,15 +57,20 @@
       }
     }
 
-    header h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-      color: white;
+    .pfp {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%; /* This makes the image circular */
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      z-index: 1;
       opacity: 0;
-      animation: shiftdown 1s ease-out 2.2s forwards;
+      animation: slideInFromRight 1s ease-out 1.2s forwards; /* Animation applied */
     }
-    
-    header h2 {
+
+    header h1 {
       font-size: 2.5em;
       margin-bottom: 10px;
       color: white;
@@ -168,26 +172,25 @@
   <div class="container">
     <header>
       <img src="building.jpg" alt="Background Header" class="header-bg">
-      <img src="pfp.jpg" alt="Profile Picture" class="pfp">
-      <h1>My Portfolio</h1>
-      <h2>Siti Norfarhana Natasha binti Mohd Aiesha</h2>
+      <img src="pfp.jpg" alt="Profile Picture" class="pfp"> <!-- Ensure the correct path to the image -->
+      <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
 
     <section>
-      <h3>About Me</h3>
+      <h2>About Me</h2>
       <p>I am an Economics soon-to-be graduate from International Islamic University Malaysia, specializing in finance. I am passionate about analyzing financial trends, working with data, and applying quantitative tools such as R and EViews to generate insights and support decision-making.</p>
     </section>
 
     <section>
-      <h3>Education</h3>
+      <h2>Education</h2>
       <ul>
         <li>Bachelor of Economics, International Islamic University Malaysia</li>
       </ul>
     </section>
 
     <section>
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <ul>
         <li>Microsoft Excel</li>
         <li>R Programming</li>
@@ -197,19 +200,19 @@
     </section>
 
     <section>
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <p>Coming soon... (You can list your final year project, forecasting models, economic analysis, etc.)</p>
     </section>
 
     <section>
-      <h3>Contacts</h3>
+      <h2>Contacts</h2>
       <ul>
         <li><a href="https://www.linkedin.com/in/siti-norfarhana-natasha-binti-mohd-aiesha-173200278" target="_blank">LinkedIn</a></li>
       </ul>
     </section>
 
     <section>
-      <h3>Resume</h3>
+      <h2>Resume</h2>
       <p><a href="#">Click here to download my resume (upload PDF link)</a></p>
     </section>
 
