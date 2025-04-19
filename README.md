@@ -31,6 +31,7 @@
       font-size: 2.5em;
       margin-bottom: 10px;
       color: #002b5b;
+      animation: fadeInRight 1.5s ease-out;
     }
 
     header p {
@@ -114,7 +115,8 @@
 <body>
   <div class="container">
     <header>
-      <img src="" alt="Siti Norfarhana Natasha" class="profile-pic">
+      <img src="![MOHE 1](https://github.com/user-attachments/assets/2c1b53f0-c02d-489b-8fe1-7958cae4d379)
+" alt="Siti Norfarhana Natasha" class="profile-pic">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
