@@ -24,7 +24,6 @@
     header {
       text-align: center;
       padding-bottom: 40px;
-      animation: fadeInDown 1.5s;
       background-color: #f0f0f0;
       height: 300px;
       display: flex;
@@ -34,16 +33,9 @@
       color: white;
       text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
       position: relative;
-    }
-
-    header img.bg {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: 0;
+      background-image: url('building.jpg'); /* tukar dengan path gambar sendiri */
+      background-size: cover;
+      background-position: center;
     }
 
     header h1 {
@@ -121,7 +113,6 @@
 <body>
   <div class="container">
     <header>
-      <img src="building.jpg" alt="Profile Header" class="bg">
       <h1>Siti Norfarhana Natasha binti Mohd Aiesha</h1>
       <p>Economics graduate specializing in Finance</p>
     </header>
